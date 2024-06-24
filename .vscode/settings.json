@@ -1,5 +1,8 @@
 {
   "cSpell.words": [
+    "esbenp",
     "nextjs"
-  ]
+  ],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 }
