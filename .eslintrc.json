@@ -2,8 +2,11 @@
   "extends": [
     "prettier",
     "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
     "plugin:storybook/recommended",
     "plugin:tailwindcss/recommended",
     "prettier"
-  ]
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"]
 }
